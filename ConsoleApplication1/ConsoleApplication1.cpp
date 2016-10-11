@@ -1,14 +1,13 @@
 // ConsoleApplication1.cpp : Defines the entry point for the console application.
 //
-#include <Windows.h>
 #include "stdafx.h"
+#include <Windows.h>
 #include <Xinput.h>
-#include "XBoxController.cpp"
 #include "XBoxController.h"
 
 
 int main() {
-	XBoxController xc(0.05, 0.05);
+	XBoxController xc(0.05f, 0.05f);
 	bool wasConnected = true;
 
 	while (true) {

@@ -1,5 +1,5 @@
-#include <Windows.h>
 #include "stdafx.h"
+#include <Windows.h>
 #include "XBoxController.h"
 #include <XInput.h>
 #include <iostream>
