@@ -1,12 +1,9 @@
-#pragma once
+#ifndef XBOXCONTROLLER_H
+#define XBOXCONTROLLER_H
+
 #include <Windows.h>
 #include <Xinput.h>
 #include <iostream>
-
-using namespace std;
-
-#ifndef XBOXCONTROLLER_H
-#define XBOXCONTROLLER_H
 
 class XBoxController
 {
